@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+  div {
+    margin-bottom: 10px;
+  }
+  .uber-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+
+  .uber-button:hover {
+    opacity: 0.8;
+  }
+  
+  .amazon-button {
+    background-color: rgb(255,216,20);
+    border: none;
+    padding: 10px 16px;
+    border-radius: 18px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    transition: opacity 0.15s;
+  }
+
+  .amazon-button:hover {
+    background-color: rgb(221, 187, 18);
+  }
+  .amazon-button:active {
+    opacity: 0.7;
+  }
+
+  .github-button {
+    background-color: rgb(46,164,79);
+    color: white;
+    font-weight: bold;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+  }
+
+  .github-button:hover {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+  }
+
+  .bootstrap-button1 {
+    background-color: rgb(121,82,179);
+    color: white;
+    font-weight: bold;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+
+  .bootstrap-button1:hover {
+    background-color: rgb(112, 70, 175);
+  }
+  
+  .bootstrap-button2 {
+    background-color: white;
+    color: rgb(108,117,125);
+    padding: 10px 20px;
+    border-style: solid;
+    border-color: rgb(108,117,125);
+    border-width: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    transition: color 0.15s;
+  }
+
+  .bootstrap-button2:hover {
+    background-color: rgb(80, 78, 78);
+    color: white;
+  }
+
+  .linkedin-button1 {
+    background-color: rgb(10,102,194);
+    color: white;
+    font-weight: bold;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 18px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+
+  .linkedin-button1:hover {
+    background-color: rgb(32, 32, 226);
+  }
+    
+   .linkedin-button2 {
+    background-color: white;
+    color: rgb(10,102,194);
+    border-radius: 18px;
+    padding: 10px 18px;
+    font-weight: bold;
+    font-size: 15px;
+    border-style: solid;
+    border-color: rgb(10,102,194);
+    border-width: 1px;
+    cursor: pointer;
+    transition: border-width 0.15s;
+    transition: background-color 0.15s;
+  }
+
+  .linkedin-button2:hover {
+    background-color: lightblue;
+    border-width: 2px;
+  }
+
+   .amazon-button2 {
+    background-color: rgb(255,164,28);
+    border: none;
+    padding: 10px 16px;
+    border-radius: 18px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    transition: opacity 0.15s;
+  }
+
+  .amazon-button2:hover {
+    background-color: rgb(209, 130, 12);
+  }
+  .amazon-button2:active {
+    opacity: 0.7;
+  }
+
+  .h3-2 {
+    font-weight: normal;
+  }
+  .h3-1 {
+    color: rgb(0,118,0);
+    font-weight: bold;
+  }
+  .a-amazon {
+    color: rgb(10,113,133);
+    font-size: 18px;
+    transition: color 0.15s;
+  }
+
+  .a-amazon:hover {
+    color: red;
+  }
+
+  .back-next-button {
+    padding: 7px 5px;
+    margin-right: 5px;
+  }
+
+  .next-button {
+    margin-left: 5px;
+  }
+
+  .a-pagination {
+    padding: 5px;
+  }
+
+  .green-exercise-button {
+    background-color: rgb(24, 117, 24);
+    color: white;
+    border: none;
+    padding: 4px 10px;
+  }
+</style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>buttons-exercises</title>
+</head>
+<body>
+  <div>
+    <button class="uber-button">Request now</button>
+    <button class="amazon-button">Add to Cart</button>
+    <button class="github-button">Sign up</button>
+  </div>
+  <div>
+    <button class="bootstrap-button1">Get started</button>
+    <button class="bootstrap-button2"> Download</button>
+    <button class="linkedin-button1">Apply on company website</button>
+    <button class="linkedin-button2">Save</button>
+  </div>
+  <div>
+    <a class="a-amazon" href="" target="_blank">Back to Amazon</a>
+
+    <h1>Nike Black Running Shoes</h1>
+
+    <h3 class="h3-1">$39 - in stock.</h3>
+    
+    <h3 class="h3-2">Free delivery tomorrow</h3>
+
+    <button class="amazon-button">Add to Cart</button>
+    <button class="amazon-button2">Buy Now</button>
+  </div>
+  <div>
+    <div>
+    <button class="back-next-button">Back</button>
+    <a class="a-pagination" href="">1</a>
+    <a class="a-pagination" href="">2</a>
+    <a class="a-pagination" href="">3</a>
+    <a class="a-pagination" href="">4</a>
+    <a class="a-pagination" href="">5</a>
+    <button class="back-next-button next-button">Next</button>
+    </div>
+    <div>
+      <button class="green-exercise-button" id="stretch-button">Stretch</button>
+      <button class="green-exercise-button" id="shadow-button">Shadow</button>
+      <button class="green-exercise-button one-two-three-button">One</button>
+      <button class="green-exercise-button one-two-three-button">Two</button>
+      <button class="green-exercise-button one-two-three-button">Three</button>
+    </div>
+  </div>
+</body>
+</html>
