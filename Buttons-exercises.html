@@ -161,6 +161,7 @@
   .back-next-button {
     padding: 7px 5px;
     margin-right: 5px;
+    cursor: pointer;
   }
 
   .next-button {
@@ -176,6 +177,30 @@
     color: white;
     border: none;
     padding: 4px 10px;
+    cursor: pointer;
+  }
+  
+  #stretch-button {
+    transition: padding 1s;
+  }
+  #stretch-button:hover {
+    padding: 8px 20px
+  }
+
+  #shadow-button {
+    box-shadow: 2px 2px 1px rgba(0,0,0,0.5);
+  }
+  #shadow-button:active {
+    box-shadow: 0 0 0;
+    margin-left: 2px;
+    margin-top: 2px;
+  }
+
+  .one-two-three-button {
+    transition: padding 0.15s;
+  }
+  .one-two-three-button:hover {
+    padding: 4px 15px;
   }
 </style>
 <head>
@@ -218,11 +243,17 @@
     <button class="back-next-button next-button">Next</button>
     </div>
     <div>
+      <div>
       <button class="green-exercise-button" id="stretch-button">Stretch</button>
+      </div>
+      <div>
       <button class="green-exercise-button" id="shadow-button">Shadow</button>
+      </div>
+      <div>
       <button class="green-exercise-button one-two-three-button">One</button>
       <button class="green-exercise-button one-two-three-button">Two</button>
       <button class="green-exercise-button one-two-three-button">Three</button>
+      </div>
     </div>
   </div>
 </body>
