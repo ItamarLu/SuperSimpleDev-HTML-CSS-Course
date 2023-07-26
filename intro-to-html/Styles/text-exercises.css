@@ -1,0 +1,160 @@
+p {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  margin-bottom: 40px;
+}
+
+.exer-5a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.exer-5b1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.exer-5b2 {
+  color: rgb(206, 79, 79);
+  font-weight: bold;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.exer-5c1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.exer-5c2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 20px;
+  font-size: 17px;
+  color: rgb(96,96,96);
+}
+.exer-5c3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 300px;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+.exer-5c4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(42, 95, 27);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.exer-5d {
+  text-align: center;
+}
+.exer-5d1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.exer-5d2{
+  font-size: 11px;
+  margin-bottom: 12px;    
+}
+.exer-5d3 {
+  font-size: 12px;
+  text-decoration: none;
+  color: rgb(20, 107, 136);
+}
+.exer-5d3:hover {
+  text-decoration: underline;
+}
+
+.sab {
+  color: red;
+  text-shadow: 2px 2px 5px rgba(29, 83, 51,1);
+}
+
+.exer-5e {
+  text-align: center;
+  font-weight: bold;
+}
+.exer-5e1 {
+  color: rgb(206, 79, 79);
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.exer-5e2 {
+  font-size: 17px;
+}
+.exer-5e3 {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+.exer-5e4 {
+  font-weight: normal;
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+.exer-5e5 {
+  background-color: rgb(58, 92, 240);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.exer-5f1 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.exer-5f1-span {
+  color: rgb(96,96,96);
+  font-size: 17px;
+}
+.exer-5f2 {
+  color: rgb(42, 95, 27);
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.exer-5f3 {
+  font-size: 15px;
+  color: rgb(96,96,96);
+}
+.exer-5f3-span {
+  color: rgb(206, 79, 79);
+}
+
+.exer-5g1 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.exer-5g1-span1 {
+  color: rgb(96,96,96);
+  margin-left: 5px;
+}
+.exer-5g1-span2 {
+  color: rgb(96,96,96);
+  margin-left: 5px;
+}
+.exer-5g2 {
+  font-size: 18px;
+  width: 600px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.exer-5g3 {
+  font-size: 18px;
+}
+.exer-5g3-anchor {
+  color: rgb(76, 76, 202);
+  text-decoration: none;
+}
+.exer-5g3-anchor:hover {
+  text-decoration: underline;
+}

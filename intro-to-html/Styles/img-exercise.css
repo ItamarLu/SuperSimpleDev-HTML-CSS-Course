@@ -1,0 +1,35 @@
+div {
+  margin-bottom: 40px;
+}
+
+.img1 {
+  width: 200px;
+  border-radius: 8px;
+}
+.img2 {
+  width: 112.63px;
+  height: 112.63px;
+  object-fit: cover;
+  object-position: 40%;
+}
+.img3 {
+  width: 112.63px;
+  height: 112.63px;
+  object-fit: cover;
+  object-position: 40%;
+  border-radius: 50%;
+}
+
+.first-input {
+  padding: 10px;
+  border: 2px solid lightgray;
+  border-radius: 8px;
+}
+
+.second-input {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  width: 400px;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+}
