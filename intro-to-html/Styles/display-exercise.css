@@ -13,19 +13,32 @@ div {
   vertical-align: middle;
 }
 
+.google-div {
+  text-align: center;
+}
+.google-div1, .google-div2, .google-div3 {
+  margin: 0;
+}
+.google-div2{
+  margin-bottom: 30px;
+}
 .google-logo {
   width: 200px;
-  display: block;
-  margin: 3px auto; 
 }
 .google-input {
   width: 400px;
-  display: block;
-  margin: auto;
   padding: 10px;
   border: none;
   box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
   border-radius: 20px;
+}
+.google-search, .lucky-btn {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.google-search {
+  margin-right: 10px;
 }
 
 .name-input-div {

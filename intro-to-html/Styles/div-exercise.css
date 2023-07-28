@@ -29,6 +29,7 @@
   color: white;
   width: 310px;
   padding: 15px;
+  margin-bottom: 40px;
 }
 .text-9d1{
   font-weight: bold;
@@ -40,4 +41,87 @@
   color: rgb(129, 129, 129);
   font-size: 14px;
   margin: 0;
+}
+
+.cat-7g {
+  vertical-align: middle;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: 42%;
+}
+
+.twitter-input {
+  vertical-align: middle;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  width: 250px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.twitter-btn {
+  vertical-align: middle;
+  height: 36px;
+  background-color: rgb(67,136,205);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 4px 14px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.exer-9e {
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.6);
+  width: 415px;
+  padding: 6px 20px;
+  border-radius: 8px;
+}
+
+.friend {
+  margin-top: 10px;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.6);
+  width: 150px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: ;
+}
+.name{
+  margin: 0;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 5px;
+}
+.friend-txt {
+  margin: 0;
+  font-size: 15px;
+  color: rgb(96, 96, 96);
+  margin-left: 5px;
+}
+.add-friend {
+  background-color: rgb(44, 90, 179);
+  font-size: 12px;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.all-friends {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
 }
