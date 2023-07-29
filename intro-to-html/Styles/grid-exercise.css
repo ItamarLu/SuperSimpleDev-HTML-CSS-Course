@@ -1,0 +1,87 @@
+p, button {
+  font-family: arial;
+  font-size: 20px;
+  margin: 0;
+}
+.div-200px, .div-col1, .div-col3 {
+  background-color: lightblue;
+}
+.div-75px, .div-col2, .div-cols {
+  background-color: lightpink;
+}
+
+.grid-11a {
+  display: grid;
+  grid-template-columns: 200px 75px;
+  margin-bottom: 20px;
+}
+
+.grid-11b {
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+  margin-bottom: 20px;
+}
+
+.grid-11c {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.grid-11d {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  column-gap: 20px;
+}
+
+.profile {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.friend-img, .my-img {
+  width: 100%;
+}
+
+.img-mutual {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.friend-info {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.friend-name {
+  font-weight: bold;
+}
+
+.mutual-friends {
+  color: rgb(96, 96, 96);
+}
+
+.friend-img {
+  height: 250px;
+  object-fit: cover;
+}
+.my-img {
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.add-friend {
+  padding: 10px 20px;
+  background-color: rgb(42, 88, 176);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

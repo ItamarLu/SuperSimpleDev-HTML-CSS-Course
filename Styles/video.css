@@ -1,16 +1,5 @@
-p {
-  font-family: roboto, Arial;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.search-bar {
-  display: block;
-}
-
 .thumbnail {
-  width: 300px;
-  display: block;
+  width: 100%;
 }
 
 .video-title {
@@ -22,10 +11,7 @@ p {
 }
 
 .video-preview {
-  width: 300px;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 15px;
+
 }
 
 .video-info-grid {
@@ -49,4 +35,11 @@ p {
 
 .video-author {
   margin-bottom: 4px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
 }
